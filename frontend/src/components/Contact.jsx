@@ -177,7 +177,7 @@ const Contact = ({ data }) => {
                     onClick={handleLinkedInClick}
                   >
                     <Linkedin className="mr-2 w-5 h-5" />
-                    Connect on LinkedIn
+                    {data.contact.connectLinkedIn}
                   </Button>
                 </div>
               </CardContent>
