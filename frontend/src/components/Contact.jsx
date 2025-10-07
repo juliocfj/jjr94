@@ -188,7 +188,7 @@ const Contact = ({ data }) => {
         {/* Footer */}
         <div className="text-center border-t border-slate-700 pt-12">
           <p className="text-slate-400 mb-4">
-            © 2025 Julio Cesar de Faria Junior. Built with modern web technologies.
+            {data.contact.footer}
           </p>
           <p className="text-slate-500 text-sm">
             Disponível para colaboração remota • Projetos internacionais bem-vindos
