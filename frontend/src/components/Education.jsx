@@ -116,11 +116,11 @@ const Education = ({ data }) => {
         {/* Languages Section */}
         <div className="bg-gradient-to-r from-slate-50 to-cyan-50 rounded-2xl p-8">
           <h3 className="text-2xl font-semibold text-slate-900 mb-8 text-center">
-            Languages
+            {data.languages.title}
           </h3>
           
           <div className="grid md:grid-cols-3 gap-6">
-            {data.languages.map((lang, index) => (
+            {data.languages.list.map((lang, index) => (
               <div key={index} className="text-center group">
                 <div className="w-20 h-20 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
                   <span className="text-2xl font-bold text-white">
