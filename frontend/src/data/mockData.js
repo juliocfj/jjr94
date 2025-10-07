@@ -91,8 +91,19 @@ export const portfolioData = {
         period: "fev/2018 – jan/2019",
         description: "Suporte presencial e remoto",
         responsibilities: [
-          "Suporte presencial e remoto, administração de Windows Server",
-          "Treinamentos internos que aumentaram a alfabetização digital em 25%"
+          "Criação de imagens ISO personalizadas (sistemas operacionais) para implantação em massa via rede utilizando o serviço Ghost.",
+          "Manutenção de hardware dos equipamentos.",
+          "Manutenção e configuração de softwares.",
+          "Administração do Active Directory (AD), incluindo criação de grupos, usuários, regras e políticas.",
+          "Gerenciamento do servidor de e-mails Zimbra.",
+          "Instalação e configuração do Microsoft Outlook.",
+          "Configuração e gerenciamento do firewall pfSense.",
+          "Atendimento Help Desk e suporte remoto utilizando TightVNC.",
+          "Backup e restauração dos e-mails dos usuários.",
+          "Limpeza de dados obsoletos no servidor de e-mails.",
+          "Suporte técnico a usuários de macOS e Windows.",
+          "Gerenciamento de telefones VoIP GrandStream configurados com contas SIP registradas no servidor Asterisk.",
+          "Suporte a mais de 250 usuários."
         ]
       }
     ],
