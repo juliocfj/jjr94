@@ -78,7 +78,7 @@ const Contact = ({ data }) => {
                           Available Now
                         </Badge>
                         <Badge variant="secondary" className="bg-blue-500/20 text-blue-400 border-blue-500/30">
-                          US Hours OK
+                          Any Time Zone
                         </Badge>
                       </div>
                     </div>
