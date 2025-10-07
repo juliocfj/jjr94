@@ -236,7 +236,7 @@ export const portfolioData = {
     ],
     contact: {
       location: "📍 São José dos Campos, SP, Brasil",
-      availability: "Disponível para trabalho remoto e fuso horário dos EUA",
+      availability: "Disponível para trabalhar em qualquer fuso horário.",
       email: "juliovdks@gmail.com",
       linkedin: "linkedin.com/in/julio-cesar-de-faria-junior",
       credly: "credly.com/users/juliojr94"
