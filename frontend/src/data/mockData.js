@@ -18,7 +18,7 @@ export const portfolioData = {
     },
     about: {
       title: "Quem Sou Eu",
-      description: "Tenho facilidade em colaborar com equipes internacionais e comunicar-me fluentemente em inglês, com vivência em ambientes multiculturais e remotos. Minha paixão é criar soluções tecnológicas que fazem a diferença no dia a dia das organizações."
+      description: "Sou Julio Cesar de Faria Junior, especialista em TI e DevOps com mais de 7 anos de experiência em infraestrutura, automação e computação em nuvem. Minha trajetória combina solidez técnica e mentalidade prática, unindo eficiência operacional e foco em resultados. Já atuei em ambientes híbridos (on-premise e cloud), desenvolvendo soluções com Azure, GCP e AWS, aplicando Kubernetes, Terraform e CI/CD para construir sistemas escaláveis e seguros. Tenho perfil colaborativo e proativo, gosto de resolver problemas complexos e de transformar rotinas em processos automatizados e previsíveis. Trabalho bem sob pressão, com pensamento analítico e atenção aos detalhes — sempre buscando inovação e qualidade no que entrego. Atualmente, foco em aprimorar minha atuação internacional, ampliando meu alcance técnico e linguístico em inglês e italiano, e me posicionando para oportunidades globais na área de Cloud, Infraestrutura e Automação."
     },
     experience: [
       {
@@ -203,6 +203,10 @@ export const portfolioData = {
       email: "juliovdks@gmail.com",
       linkedin: "linkedin.com/in/julio-cesar-de-faria-junior",
       credly: "credly.com/users/juliojr94"
+    },
+    cv: {
+      url: "https://customer-assets.emergentagent.com/job_julio-devops/artifacts/m0wfoo6x_CV%20Julio%20Junior.pdf",
+      filename: "CV_Julio_Cesar_Faria_Junior_PT.pdf"
     }
   },
   en: {
@@ -223,7 +227,7 @@ export const portfolioData = {
     },
     about: {
       title: "About Me",
-      description: "I collaborate easily with international teams and communicate fluently in English, with solid experience in multicultural, remote environments. My passion is creating technological solutions that make a difference in organizations' daily operations."
+      description: "I collaborate easily with I’m Julio Cesar de Faria Junior, an IT and DevOps Specialist with over 7 years of experience in infrastructure, automation, and cloud computing. My background combines technical expertise with a practical mindset, balancing operational efficiency and strategic problem-solving. I’ve worked across hybrid environments (on-prem and cloud), developing solutions on Azure, GCP, and AWS, and leveraging Kubernetes, Terraform, and CI/CD pipelines to build scalable and secure systems. I’m collaborative, proactive, and analytical, driven by the challenge of simplifying complex processes and turning them into automated, predictable workflows. Detail-oriented and innovation-focused, I thrive in dynamic environments where performance and precision matter. Currently, I’m expanding my international experience, improving my English and Italian fluency, and preparing for global opportunities in Cloud Engineering, Infrastructure, and Automation. teams and communicate fluently in English, with solid experience in multicultural, remote environments. My passion is creating technological solutions that make a difference in organizations' daily operations."
     },
     experience: [
       {
@@ -363,7 +367,7 @@ export const portfolioData = {
       {
         degree: "Computer Networks (Technologist)",
         institution: "Universidade Anhembi Morumbi",
-        year: "2022"
+        year: "2023"
       },
       {
         degree: "Systems Analysis & Development (Technologist)", 
@@ -373,9 +377,9 @@ export const portfolioData = {
     ],
     certifications: [
       {
-        name: "Microsoft Certified: Azure Administrator Associate",
+        name: "Microsoft Certified: Azure Fundamentals",
         issuer: "Microsoft",
-        year: "2024"
+        year: "2022"
       },
       {
         name: "Fortinet Certified Associate in Cybersecurity",
@@ -385,7 +389,6 @@ export const portfolioData = {
       {
         name: "Datadog Foundation",
         issuer: "Datadog",
-        certId: "jnbnnguhqd",
         year: "2025"
       }
     ],
@@ -428,7 +431,7 @@ export const portfolioData = {
     },
     about: {
       title: "Chi Sono",
-      description: "Collaboro facilmente con team internazionali e comunico fluentemente in inglese, con esperienza in contesti multiculturali e remoti. La mia passione è creare soluzioni tecnologiche che fanno la differenza nelle operazioni quotidiane delle organizzazioni."
+      description: "Collaboro facilmente con team internazionali Sono Julio Cesar de Faria Junior, specialista IT e DevOps con oltre 7 anni di esperienza in infrastruttura, automazione e cloud computing. La mia carriera unisce competenza tecnica e mentalità pratica, concentrandosi su efficienza operativa e risultati concreti. Ho lavorato in ambienti ibridi (on-premise e cloud), sviluppando soluzioni su Azure, GCP e AWS, utilizzando Kubernetes, Terraform e pipeline CI/CD per creare sistemi scalabili e sicuri. Mi considero una persona collaborativa, proattiva e analitica, appassionata nel risolvere problemi complessi e nel trasformare i processi quotidiani in flussi di lavoro automatizzati e affidabili. Curioso e orientato all’innovazione, do grande importanza alla qualità e alla precisione di ogni progetto. Attualmente sto ampliando la mia esperienza internazionale, migliorando la padronanza di inglese e italiano, e preparandomi per opportunità globali nel campo di Cloud, Infrastruttura e Automazione. comunico fluentemente in inglese, con esperienza in contesti multiculturali e remoti. La mia passione è creare soluzioni tecnologiche che fanno la differenza nelle operazioni quotidiane delle organizzazioni."
     },
     experience: [
       {
@@ -438,11 +441,21 @@ export const portfolioData = {
         period: "nov/2024 – presente",
         description: "Gestione delle reti UniFi e dell'infrastruttura IT",
         responsibilities: [
-          "Gestione delle reti UniFi e dell'infrastruttura IT",
-          "Automazione dei processi e documentazione tecnica",
-          "Sviluppo di soluzioni collaborative in SharePoint Online",
-          "Garanzia di alta disponibilità e conformità agli SLA"
-        ]
+          "Gestire attività DevOps, inclusi strumenti di automazione, deployment e controllo delle versioni.",
+          "Validare simulazioni di recupero, deployment e altri processi IT.",
+          "Ottimizzare i costi IT e generare report sulle prestazioni e sulle spese.",
+          "Supervisionare le procedure di backup, le routine di recupero dati e i piani di emergenza.",
+          "Monitorare e mantenere l'infrastruttura dei server, garantendo disponibilità e prestazioni.",
+          "Eseguire manutenzione preventiva e processi di escalation in caso di guasti.",
+          "Generare report periodici, inclusi prestazioni dei server, accessi di sicurezza e backup.",
+          "Mantenere un inventario aggiornato degli asset IT, il loro ciclo di vita e i piani di sostituzione.",
+          "Preparare e aggiornare la documentazione IT, inclusi asset, fornitori e politiche di accesso.",
+          "Gestire il controllo degli accessi e le politiche delle password per sistemi e piattaforme critiche.",
+          "Garantire la conformità agli accordi SLA e gestire le consegne specifiche per i clienti.",
+          "Condurre riunioni di handover per rivedere responsabilità, attività in sospeso e priorità critiche.",
+          "Facilitare una comunicazione efficace con i clienti e garantire la continuità del supporto durante le transizioni."
+]
+
       },
       {
         id: 2,
@@ -450,11 +463,15 @@ export const portfolioData = {
         company: "MeedBr", 
         period: "apr/2024 – ago/2024",
         description: "Allineamento delle politiche interne al GDPR/LGPD",
-        responsibilities: [
-          "Allineamento delle politiche interne al GDPR/LGPD",
-          "Automazione degli accessi VPN e monitoraggio della sicurezza",
-          "Implementazione di infrastruttura con Ansible e Terraform"
-        ]
+       responsibilities: [
+          "Installare, amministrare e risolvere i problemi delle soluzioni di sicurezza dell'organizzazione.",
+          "Gestire e analizzare gli alert SIEM provenienti da strumenti come Wazuh, Manage Engine e Graylog.",
+          "Monitorare i sistemi cloud e on-premise utilizzando Zabbix e Grafana.",
+          "Gestire VPN e firewall come Sophos e Fortinet.",
+          "Analizzare gli alert, aprire ticket e coordinarsi con il team responsabile dell'implementazione delle soluzioni.",
+          "Utilizzare lo strumento di sicurezza basato su intelligenza artificiale Cylance per rilevamento e prevenzione delle minacce."
+]
+
       },
       {
         id: 3,
@@ -462,11 +479,26 @@ export const portfolioData = {
         company: "Quero Educação",
         period: "gen/2019 – ago/2023",
         description: "Supporto a più di 1.000 utenti",
-        responsibilities: [
-          "Supporto a più di 1.000 utenti",
-          "Implementazione di infrastruttura GCP con Kubernetes e Terraform",
-          "Creazione di pipeline CI/CD con Jenkins e Docker, riducendo i tempi di consegna del 40%"
+       responsibilities: [
+          "Gestione di EC2 e reti VPC in AWS, oltre alla gestione utenti e sicurezza in Azure.",
+          "Automazione dei processi con Terraform, garantendo risorse scalabili ed efficienti.",
+          "Supervisione di Kubernetes per automatizzare deployment e gestione di applicazioni containerizzate.",
+          "Gestione di progetti su Google Cloud Platform (GCP), inclusa la creazione di risorse e politiche di sicurezza.",
+          "Implementazione della conformità al GDPR, allineando politiche di sicurezza e controllo accessi.",
+          "Sviluppo di soluzioni automatizzate per il monitoraggio delle applicazioni.",
+          "Gestione di pipeline CI/CD con Docker e Jenkins, facilitando lo sviluppo continuo.",
+          "Configurazione di Zabbix con avvisi su Slack per migliorare la risposta agli incidenti.",
+          "Gestione di strumenti come G-Suite, Jira, Slack, Metabase, Notion, Adobe, PowerBI, Office 365, GitHub, Google Ads e Google Analytics.",
+          "Amministrazione del firewall Sophos per la sicurezza della rete e il controllo del traffico.",
+          "Supporto remoto e in loco per hardware e software, garantendo continuità dei servizi.",
+          "Gestione di chiamate con soluzioni VoIP basate su SIP per risolvere problemi tecnici.",
+          "Gestione delle richieste L1, guidando i team nella risoluzione di problemi complessi.",
+          "Implementazione dell'integrazione tra Active Directory e Ansible, automatizzando attività e migliorando la sicurezza.",
+          "Aggiornamento di GLPI per garantire la continuità dei servizi di help desk.",
+          "Competenza in Windows, distribuzioni Linux (Ubuntu, Xubuntu, Debian) e macOS (Catalina, Big Sur, Monterey).",
+          "Gestione dell'infrastruttura di rete con focus su sicurezza e alta disponibilità, inclusa gestione VPN per lavoro remoto."
         ]
+
       },
       {
         id: 4,
@@ -474,10 +506,22 @@ export const portfolioData = {
         company: "Fundação Cultural Cassiano Ricardo",
         period: "feb/2018 – gen/2019",
         description: "Supporto tecnico on-site e remoto",
-        responsibilities: [
-          "Supporto tecnico on-site e remoto, amministrazione di Windows Server",
-          "Formazione interna che ha aumentato del 25% la competenza digitale degli utenti"
+       responsibilities: [
+          "Creazione di immagini ISO personalizzate (OS) per il deployment di massa tramite rete con servizio Ghost.",
+          "Manutenzione hardware dei dispositivi.",
+          "Manutenzione e configurazione del software.",
+          "Amministrazione di Active Directory (AD), inclusa la creazione di gruppi, utenti, regole e politiche.",
+          "Gestione del server di posta Zimbra.",
+          "Installazione e configurazione di Microsoft Outlook.",
+          "Configurazione e gestione del firewall pfSense.",
+          "Supporto Help Desk e assistenza remota tramite TightVNC.",
+          "Backup e ripristino delle e-mail degli utenti.",
+          "Pulizia dei dati obsoleti dal server di posta elettronica.",
+          "Supporto tecnico per utenti macOS e Windows.",
+          "Gestione dei telefoni VoIP GrandStream, configurati con account SIP registrati sul server Asterisk.",
+          "Supporto a più di 250 utenti."
         ]
+
       }
     ],
     projects: [
