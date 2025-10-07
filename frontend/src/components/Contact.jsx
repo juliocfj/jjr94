@@ -157,7 +157,7 @@ const Contact = ({ data }) => {
                   {data.contact.collaborationTitle}
                 </h3>
                 <p className="text-slate-300 mb-6 leading-relaxed">
-                  Whether you need infrastructure automation, cloud migration, security implementation, or technical leadership, I'm here to help transform your IT operations.
+                  {data.contact.collaborationText}
                 </p>
                 
                 <div className="space-y-4">
