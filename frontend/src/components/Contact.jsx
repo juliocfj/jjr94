@@ -191,7 +191,7 @@ const Contact = ({ data }) => {
             © 2025 Julio Cesar de Faria Junior. Built with modern web technologies.
           </p>
           <p className="text-slate-500 text-sm">
-            Available for remote collaboration • International projects welcome
+            Disponível para colaboração remota • Projetos internacionais bem-vindos
           </p>
         </div>
       </div>
