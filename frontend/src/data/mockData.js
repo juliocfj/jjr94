@@ -531,7 +531,7 @@ export const portfolioData = {
       email: "juliovdks@gmail.com",
       linkedin: "linkedin.com/in/julio-cesar-de-faria-junior",
       credly: "credly.com/users/juliojr94",
-      callToAction: "Ready to collaborate? Let's discuss how my technical expertise can help drive your organization's IT initiatives forward.",
+      callToAction: "Pronto para colaborar? Vamos conversar sobre como minha experiência técnica pode impulsionar as iniciativas de TI da sua organização.",
       profilesTitle: "Perfis Profissionais",
       linkedinLabel: "Perfil LinkedIn",
       credlyLabel: "Certificações Credly",
