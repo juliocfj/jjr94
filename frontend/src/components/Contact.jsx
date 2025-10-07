@@ -154,7 +154,7 @@ const Contact = ({ data }) => {
             <Card className="bg-slate-800/50 border-slate-700 backdrop-blur-sm">
               <CardContent className="p-6">
                 <h3 className="text-xl font-semibold text-white mb-4">
-                  Let's Work Together
+                  {data.contact.collaborationTitle}
                 </h3>
                 <p className="text-slate-300 mb-6 leading-relaxed">
                   Whether you need infrastructure automation, cloud migration, security implementation, or technical leadership, I'm here to help transform your IT operations.
