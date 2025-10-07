@@ -62,6 +62,7 @@ const Hero = ({ data, onContactClick }) => {
             <Button 
               variant="outline" 
               size="lg"
+              onClick={handleDownloadCV}
               className="border-slate-600 text-slate-300 hover:bg-slate-800 px-8 py-4 text-lg font-medium transition-all duration-300"
             >
               <Download className="mr-2 w-5 h-5" />
