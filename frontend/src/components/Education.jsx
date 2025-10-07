@@ -43,7 +43,7 @@ const Education = ({ data }) => {
                         variant="secondary"
                         className="bg-cyan-100 text-cyan-700 px-3 py-1 w-fit"
                       >
-                        {data.ui?.technologyDegree || "Technology Degree"}
+                        Graduação Tecnológica
                       </Badge>
                     </div>
                   </CardContent>
