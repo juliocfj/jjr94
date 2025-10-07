@@ -47,7 +47,7 @@ const Contact = ({ data }) => {
               <CardContent className="p-6">
                 <h3 className="text-2xl font-semibold text-white mb-6 flex items-center gap-3">
                   <MessageCircle className="w-6 h-6 text-cyan-400" />
-                  Get In Touch
+                  {data.contact.title}
                 </h3>
                 
                 <div className="space-y-6">
