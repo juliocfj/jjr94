@@ -72,7 +72,7 @@ const Contact = ({ data }) => {
                     <Clock className="w-5 h-5 text-cyan-400" />
                     <div>
                       <p className="text-slate-300 text-sm">Availability</p>
-                      <p className="text-white font-medium">Remote & International Ready</p>
+                      <p className="text-white font-medium">Available Any Time Zone</p>
                       <div className="flex gap-2 mt-2">
                         <Badge variant="secondary" className="bg-green-500/20 text-green-400 border-green-500/30">
                           Available Now
