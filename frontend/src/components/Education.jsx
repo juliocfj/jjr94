@@ -56,7 +56,7 @@ const Education = ({ data }) => {
           <div>
             <h3 className="text-2xl font-semibold text-slate-900 mb-8 flex items-center gap-3">
               <Award className="w-6 h-6 text-cyan-600" />
-              Certifications
+              {data.certifications.title}
             </h3>
             
             <div className="space-y-6">
