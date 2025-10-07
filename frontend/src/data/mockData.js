@@ -672,7 +672,7 @@ export const portfolioData = {
     ],
     certifications: [
       {
-        name: "Microsoft Certified: Azure Administrator Associate",
+        name: "Microsoft Certified: Azure Fundamentals",
         issuer: "Microsoft", 
         year: "2024"
       },
