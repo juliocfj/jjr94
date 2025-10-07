@@ -411,6 +411,10 @@ export const portfolioData = {
       email: "juliovdks@gmail.com",
       linkedin: "linkedin.com/in/julio-cesar-de-faria-junior",
       credly: "credly.com/users/juliojr94"
+    },
+    cv: {
+      url: "https://customer-assets.emergentagent.com/job_julio-devops/artifacts/lcoplpk5_CV%20Julio%20Junior%20EN.pdf",
+      filename: "CV_Julio_Cesar_Faria_Junior_EN.pdf"
     }
   },
   it: {
