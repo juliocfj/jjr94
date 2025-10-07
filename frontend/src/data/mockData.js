@@ -829,7 +829,8 @@ export const portfolioData = {
         email: "Email",
         location: "Località",
         availability: "Disponibilità"
-      }
+      },
+      footer: "© 2025 Julio Cesar de Faria Junior. Realizzato con tecnologie web moderne"
     },
     cv: {
       url: "https://customer-assets.emergentagent.com/job_julio-devops/artifacts/bzobl3d3_JulioCesarFariaJunior_CV_Italiano.pdf",
