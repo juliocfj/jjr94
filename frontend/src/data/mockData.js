@@ -556,6 +556,18 @@ export const portfolioData = {
       skills: "Competenze", 
       contact: "Contatti"
     },
+    ui: {
+      viewDetails: "Visualizza Dettagli",
+      technologyDegree: "Laurea Tecnologica",
+      quickOverview: "Panoramica Rapida",
+      letsWorkTogether: "Lavoriamo Insieme",
+      yearsExperience: "Anni di Esperienza",
+      usersSupported: "Utenti Supportati",
+      uptimeAchieved: "Disponibilità Raggiunta",
+      processImprovement: "Miglioramento Processi",
+      current: "Attuale",
+      previous: "Precedente"
+    },
     hero: {
       name: "Julio Cesar de Faria Junior",
       title: "Specialista IT",
