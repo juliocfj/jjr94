@@ -133,19 +133,19 @@ const Contact = ({ data }) => {
                 <div className="grid grid-cols-2 gap-6">
                   <div className="text-center">
                     <div className="text-3xl font-bold text-cyan-400 mb-2">7+</div>
-                    <div className="text-slate-300 text-sm">{data.ui.yearsExperience}</div>
+                    <div className="text-slate-300 text-sm">{data.ui?.yearsExperience || "Years Experience"}</div>
                   </div>
                   <div className="text-center">
                     <div className="text-3xl font-bold text-cyan-400 mb-2">1000+</div>
-                    <div className="text-slate-300 text-sm">{data.ui.usersSupported}</div>
+                    <div className="text-slate-300 text-sm">{data.ui?.usersSupported || "Users Supported"}</div>
                   </div>
                   <div className="text-center">
                     <div className="text-3xl font-bold text-cyan-400 mb-2">99.9%</div>
-                    <div className="text-slate-300 text-sm">{data.ui.uptimeAchieved}</div>
+                    <div className="text-slate-300 text-sm">{data.ui?.uptimeAchieved || "Uptime Achieved"}</div>
                   </div>
                   <div className="text-center">
                     <div className="text-3xl font-bold text-cyan-400 mb-2">40%</div>
-                    <div className="text-slate-300 text-sm">{data.ui.processImprovement}</div>
+                    <div className="text-slate-300 text-sm">{data.ui?.processImprovement || "Process Improvement"}</div>
                   </div>
                 </div>
               </CardContent>
