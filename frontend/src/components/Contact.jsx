@@ -167,7 +167,7 @@ const Contact = ({ data }) => {
                     onClick={handleEmailClick}
                   >
                     <Mail className="mr-2 w-5 h-5" />
-                    Send Email
+                    {data.contact.sendEmail}
                   </Button>
                   
                   <Button 
