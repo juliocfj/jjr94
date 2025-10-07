@@ -19,11 +19,11 @@ const Education = ({ data }) => {
           <div>
             <h3 className="text-2xl font-semibold text-slate-900 mb-8 flex items-center gap-3">
               <GraduationCap className="w-6 h-6 text-cyan-600" />
-              Academic Background
+              {data.education.title}
             </h3>
             
             <div className="space-y-6">
-              {data.education.map((edu, index) => (
+              {data.education.degrees.map((edu, index) => (
                 <Card key={index} className="border-none shadow-md hover:shadow-lg transition-all duration-300 bg-white">
                   <CardContent className="p-6">
                     <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
