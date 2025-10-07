@@ -112,7 +112,7 @@ const Contact = ({ data }) => {
                   >
                     <Award className="w-5 h-5 mr-3 text-orange-400" />
                     <div className="text-left flex-1">
-                      <p className="font-medium">Credly Certifications</p>
+                      <p className="font-medium">{data.contact.credlyLabel}</p>
                       <p className="text-sm text-slate-400">{data.contact.credly}</p>
                     </div>
                     <ExternalLink className="w-4 h-4 text-slate-400" />
