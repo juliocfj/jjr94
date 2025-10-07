@@ -65,9 +65,23 @@ export const portfolioData = {
         period: "jan/2019 – ago/2023",
         description: "Suporte a mais de 1.000 usuários",
         responsibilities: [
-          "Suporte a mais de 1.000 usuários",
-          "Implantação de GCP com Kubernetes e Terraform",
-          "Criação de pipelines CI/CD com Jenkins e Docker, reduzindo entregas em 40%"
+          "Gestão de instâncias EC2 e redes VPC na AWS, além da administração de usuários e segurança no Azure.",
+          "Automação de processos com Terraform, garantindo recursos escaláveis e eficientes.",
+          "Supervisão de Kubernetes para automatizar deploys e gerenciar aplicações containerizadas.",
+          "Gerenciamento de projetos na Google Cloud Platform (GCP), incluindo criação de recursos e políticas de segurança.",
+          "Implementação de conformidade com o GDPR, alinhando políticas de segurança e controle de acesso.",
+          "Desenvolvimento de soluções automatizadas para monitoramento de aplicações.",
+          "Gestão de pipelines CI/CD com Docker e Jenkins, facilitando o desenvolvimento contínuo.",
+          "Configuração do Zabbix com alertas via Slack para melhorar a resposta a incidentes.",
+          "Administração de ferramentas como G-Suite, Jira, Slack, Metabase, Notion, Adobe, PowerBI, Office 365, GitHub, Google Ads e Google Analytics.",
+          "Administração do firewall Sophos para segurança de rede e controle de tráfego.",
+          "Suporte remoto e presencial para hardware e software, garantindo continuidade dos serviços.",
+          "Gestão de chamadas com soluções VoIP baseadas em SIP para resolução de problemas técnicos.",
+          "Atendimento e coordenação de solicitações L1, apoiando equipes na resolução de incidentes complexos.",
+          "Implementação de integração entre Active Directory e Ansible, automatizando tarefas e aumentando a segurança.",
+          "Atualização e manutenção do GLPI para garantir a continuidade dos serviços de help desk.",
+          "Experiência com Windows, distribuições Linux (Ubuntu, Xubuntu, Debian) e macOS (Catalina, Big Sur, Monterey).",
+          "Gerenciamento da infraestrutura de rede com foco em segurança e alta disponibilidade, incluindo VPNs para trabalho remoto."
         ]
       },
       {
