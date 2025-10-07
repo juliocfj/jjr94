@@ -62,9 +62,8 @@ const Contact = ({ data }) => {
                   <div className="flex items-start gap-4 p-4 bg-slate-700/30 rounded-lg">
                     <MapPin className="w-5 h-5 text-cyan-400 mt-1" />
                     <div>
-                      <p className="text-slate-300 text-sm">Location</p>
+                      <p className="text-slate-300 text-sm">{data.contact.labels.location}</p>
                       <p className="text-white font-medium">{data.contact.location}</p>
-                      <p className="text-slate-400 text-sm mt-1">{data.contact.availability}</p>
                     </div>
                   </div>
 
