@@ -50,7 +50,7 @@ const Skills = ({ data }) => {
           </h2>
           <div className="w-24 h-1 bg-cyan-500 mx-auto mb-6"></div>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
-            Technical expertise across cloud platforms, automation tools, and modern infrastructure management.
+            Expertise técnica em plataformas cloud, ferramentas de automação e gerenciamento moderno de infraestrutura.
           </p>
         </div>
 
