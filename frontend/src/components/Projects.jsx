@@ -31,7 +31,7 @@ const ProjectCard = ({ project }) => {
         <div className="space-y-4">
           <div>
             <h5 className="text-sm font-semibold text-slate-900 mb-3 uppercase tracking-wide">
-              Technologies Used
+              Tecnologias Utilizadas
             </h5>
             <div className="flex flex-wrap gap-2">
               {project.technologies.slice(0, 4).map((tech, idx) => (
