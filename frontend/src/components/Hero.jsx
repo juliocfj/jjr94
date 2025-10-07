@@ -4,7 +4,7 @@ import { Badge } from "./ui/badge";
 import { ArrowRight, Download, Mail, MapPin } from 'lucide-react';
 
 const Hero = ({ data, onContactClick }) => {
-  const profileImageUrl = "https://customer-assets.emergentagent.com/job_8981f473-e0c1-4f38-a722-db37c6674f5b/artifacts/ah1os83s_4c4d6008-36ee-448f-81ff-21950292c5e9.jpg";
+  const profileImageUrl = "https://customer-assets.emergentagent.com/job_julio-devops/artifacts/fxr1vguv_Gemini_Generated_Image_bxk34abxk34abxk3.png";
 
   const handleDownloadCV = () => {
     const link = document.createElement('a');
