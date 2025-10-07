@@ -76,7 +76,7 @@ const Hero = ({ data, onContactClick }) => {
               <span>juliovdks@gmail.com</span>
             </div>
             <div className="w-px h-6 bg-slate-600"></div>
-            <span className="text-sm">Remote & International Ready</span>
+            <span className="text-sm">Any Time Zone Available</span>
           </div>
         </div>
 
