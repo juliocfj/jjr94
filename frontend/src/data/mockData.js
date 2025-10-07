@@ -50,9 +50,12 @@ export const portfolioData = {
         period: "abr/2024 – ago/2024",
         description: "Alinhamento de políticas à LGPD/GDPR",
         responsibilities: [
-          "Alinhamento de políticas à LGPD/GDPR",
-          "Automação de acessos VPN e monitoramento de segurança",
-          "Implementação de infraestrutura com Ansible e Terraform"
+          "Instalar, administrar e solucionar problemas das soluções de segurança da organização.",
+          "Gerenciar e analisar alertas SIEM provenientes de ferramentas como Wazuh, Manage Engine e Graylog.",
+          "Monitorar sistemas em cloud e on-premise utilizando Zabbix e Grafana.",
+          "Gerenciar VPNs e firewalls, incluindo Sophos e Fortinet.",
+          "Analisar alertas, abrir tickets e coordenar-se com a equipe responsável pela implementação das soluções.",
+          "Utilizar a ferramenta de segurança baseada em inteligência artificial Cylance para detecção e prevenção de ameaças."
         ]
       },
       {
