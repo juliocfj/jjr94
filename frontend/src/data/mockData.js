@@ -459,11 +459,18 @@ export const portfolioData = {
       { name: "Italian", level: "Intermediate (B1)" }
     ],
     contact: {
+      title: "Get In Touch",
       location: "📍 São José dos Campos, SP, Brazil",
       availability: "Available to work in any time zone.",
+      availableNow: "Available now.",
       email: "juliovdks@gmail.com",
       linkedin: "linkedin.com/in/julio-cesar-de-faria-junior",
-      credly: "credly.com/users/juliojr94"
+      credly: "credly.com/users/juliojr94",
+      labels: {
+        email: "Email",
+        location: "Location",
+        availability: "Availability"
+      }
     },
     cv: {
       url: "https://customer-assets.emergentagent.com/job_julio-devops/artifacts/lcoplpk5_CV%20Julio%20Junior%20EN.pdf",
