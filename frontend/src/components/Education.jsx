@@ -60,7 +60,7 @@ const Education = ({ data }) => {
             </h3>
             
             <div className="space-y-6">
-              {data.certifications.map((cert, index) => (
+              {data.certifications.list.map((cert, index) => (
                 <Card key={index} className="border-none shadow-md hover:shadow-lg transition-all duration-300 bg-white group">
                   <CardContent className="p-6">
                     <div className="flex items-start justify-between gap-4">
