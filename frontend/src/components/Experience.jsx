@@ -48,7 +48,7 @@ const Experience = ({ data }) => {
                           variant="secondary"
                           className="bg-cyan-100 text-cyan-700 px-3 py-1 w-fit"
                         >
-                          {index === 0 ? data.ui.current : data.ui.previous}
+                          {index === 0 ? (data.ui?.current || "Current") : (data.ui?.previous || "Previous")}
                         </Badge>
                       </div>
                     </CardHeader>
