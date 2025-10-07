@@ -54,7 +54,7 @@ const Contact = ({ data }) => {
                   <div className="flex items-center gap-4 p-4 bg-slate-700/30 rounded-lg hover:bg-slate-700/50 transition-colors duration-300">
                     <Mail className="w-5 h-5 text-cyan-400" />
                     <div>
-                      <p className="text-slate-300 text-sm">Email</p>
+                      <p className="text-slate-300 text-sm">{data.contact.labels.email}</p>
                       <p className="text-white font-medium">{data.contact.email}</p>
                     </div>
                   </div>
