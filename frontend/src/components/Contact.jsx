@@ -70,14 +70,11 @@ const Contact = ({ data }) => {
                   <div className="flex items-center gap-4 p-4 bg-slate-700/30 rounded-lg">
                     <Clock className="w-5 h-5 text-cyan-400" />
                     <div>
-                      <p className="text-slate-300 text-sm">Availability</p>
-                      <p className="text-white font-medium">Available Any Time Zone</p>
+                      <p className="text-slate-300 text-sm">{data.contact.labels.availability}</p>
+                      <p className="text-white font-medium">{data.contact.availability}</p>
                       <div className="flex gap-2 mt-2">
                         <Badge variant="secondary" className="bg-green-500/20 text-green-400 border-green-500/30">
-                          Available Now
-                        </Badge>
-                        <Badge variant="secondary" className="bg-blue-500/20 text-blue-400 border-blue-500/30">
-                          Any Time Zone
+                          {data.contact.availableNow}
                         </Badge>
                       </div>
                     </div>
