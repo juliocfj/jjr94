@@ -28,10 +28,19 @@ export const portfolioData = {
         period: "nov/2024 – atual",
         description: "Gerenciamento de redes UniFi e infraestrutura de TI",
         responsibilities: [
-          "Gerenciamento de redes UniFi e infraestrutura de TI",
-          "Automação de processos e documentação técnica", 
-          "Criação de soluções colaborativas em SharePoint Online",
-          "Garantia de alta disponibilidade e compliance com SLA"
+          "Gerenciar atividades DevOps, incluindo ferramentas de automação, implantação e controle de versões.",
+          "Validar simulações de recuperação, deployment e outros processos de TI.",
+          "Otimizar custos de TI e gerar relatórios sobre desempenho e despesas.",
+          "Supervisionar procedimentos de backup, rotinas de recuperação de dados e planos de contingência.",
+          "Monitorar e manter a infraestrutura de servidores, garantindo disponibilidade e desempenho.",
+          "Executar manutenção preventiva e processos de escalonamento em caso de falhas.",
+          "Gerar relatórios periódicos, incluindo desempenho de servidores, acessos de segurança e backups.",
+          "Manter inventário atualizado de ativos de TI, ciclo de vida e planos de substituição.",
+          "Preparar e atualizar documentação de TI, incluindo ativos, fornecedores e políticas de acesso.",
+          "Gerenciar controle de acessos e políticas de senha para sistemas e plataformas críticas.",
+          "Garantir conformidade com os acordos de SLA e gerenciar entregas específicas para clientes.",
+          "Conduzir reuniões de handover para revisar responsabilidades, tarefas pendentes e prioridades críticas.",
+          "Facilitar comunicação eficaz com os clientes e garantir a continuidade do suporte durante as transições."
         ]
       },
       {
