@@ -440,18 +440,22 @@ export const portfolioData = {
         ]
       }
     ],
-    education: [
-      {
-        degree: "Computer Networks (Technologist)",
-        institution: "Universidade Anhembi Morumbi",
-        year: "2023"
-      },
-      {
-        degree: "Systems Analysis & Development (Technologist)", 
-        institution: "FATEC São José dos Campos",
-        year: "2020"
-      }
-    ],
+    education: {
+      title: "Academic Background",
+      description: "Technologist in Computer Networks and Technologist in Systems Analysis and Development",
+      degrees: [
+        {
+          degree: "Computer Networks (Technologist)",
+          institution: "Universidade Anhembi Morumbi",
+          year: "2022"
+        },
+        {
+          degree: "Systems Analysis & Development (Technologist)", 
+          institution: "FATEC São José dos Campos",
+          year: "2020"
+        }
+      ]
+    },
     certifications: [
       {
         name: "Microsoft Certified: Azure Fundamentals",
