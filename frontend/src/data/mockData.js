@@ -578,7 +578,9 @@ export const portfolioData = {
       title: "Specialista IT",
       subtitle: "Oltre 7 anni di esperienza nel supporto tecnico, automazione e gestione dell'infrastruttura",
       description: "Sono Julio Cesar de Faria Junior, specialista IT con oltre 7 anni di esperienza nel supporto tecnico, nell'automazione dei processi e nella gestione dell'infrastruttura in ambienti cloud e on-premise. Lavoro con Microsoft 365, Power Platform, Terraform, Kubernetes e UniFi, cercando sempre efficienza, sicurezza e innovazione.",
-      cta: "Contattami"
+      cta: "Contattami",
+      downloadCV: "Scarica CV",
+      timeZone: "Disponibile in Qualsiasi Fuso Orario"
     },
     about: {
       title: "Chi Sono",
