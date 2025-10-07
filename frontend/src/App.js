@@ -30,6 +30,11 @@ function App() {
   };
 
   const currentData = portfolioData[currentLanguage];
+  
+  // Debug: check if data is loading correctly
+  if (!currentData) {
+    return <div>Loading portfolio data...</div>;
+  }
 
   return (
     <div className="App">
