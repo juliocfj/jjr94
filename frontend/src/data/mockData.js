@@ -207,24 +207,30 @@ export const portfolioData = {
         }
       ]
     },
-    certifications: [
-      {
-        name: "Microsoft Certified: Azure Fundamentals",
-        issuer: "Microsoft",
-        year: "2024"
-      },
-      {
-        name: "Fortinet Certified Associate in Cybersecurity",
-        issuer: "Fortinet",
-        year: "2024"
-      },
-      {
-        name: "Datadog Foundation",
-        issuer: "Datadog",
-        certId: "jnbnnguhqd",
-        year: "2025"
-      }
-    ],
+    certifications: {
+      title: "Certificações",
+      credlyTitle: "Perfil no Credly",
+      credlyDescription: "Veja todas as certificações verificadas e selos digitais no meu perfil Credly.",
+      credlyButton: "Acessar Perfil Credly",
+      list: [
+        {
+          name: "Microsoft Certified: Azure Fundamentals",
+          issuer: "Microsoft",
+          year: "2024"
+        },
+        {
+          name: "Fortinet Certified Associate in Cybersecurity",
+          issuer: "Fortinet",
+          year: "2024"
+        },
+        {
+          name: "Datadog Foundation",
+          issuer: "Datadog",
+          certId: "jnbnnguhqd",
+          year: "2025"
+        }
+      ]
+    },
     skills: {
       "Cloud & Infraestrutura": ["Azure", "GCP", "AWS", "UniFi"],
       "Automação & DevOps": ["Terraform", "Ansible", "Jenkins", "Docker"],
