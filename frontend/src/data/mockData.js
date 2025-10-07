@@ -778,10 +778,10 @@ export const portfolioData = {
       ]
     },
     certifications: {
-      title: "Certifications",
-      credlyTitle: "Credly Profile",
-      credlyDescription: "View all verified certifications and digital badges on my Credly profile.",
-      credlyButton: "Visit Credly Profile",
+      title: "Certificazioni",
+      credlyTitle: "Profilo su Credly",
+      credlyDescription: "Visualizza tutte le certificazioni verificate e i badge digitali sul mio profilo Credly.",
+      credlyButton: "Visita il Profilo Credly",
       list: [
         {
           name: "Microsoft Certified: Azure Fundamentals",
