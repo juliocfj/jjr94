@@ -274,7 +274,7 @@ export const portfolioData = {
       credlyLabel: "Certificações no Credly",
       overviewTitle: "Resumo Rápido",
       collaborationTitle: "Vamos Trabalhar Juntos",
-      collaborationText: "Seja para automação de infraestrutura, migração para a nuvem, implementação de segurança ou liderança técnica, estou pronto para transformar as operações de TI da sua organização.",
+      collaborationText: "Seja para automação de infraestrutura, migração para a nuvem, implementação de segurança ou liderança técnica, estou aqui para ajudar a transformar as operações de TI da sua empresa.",
       sendEmail: "Enviar E-mail",
       connectLinkedIn: "Conectar no LinkedIn",
       footer: "© 2025 Julio Cesar de Faria Junior. Desenvolvido com tecnologias web modernas",
