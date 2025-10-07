@@ -618,7 +618,19 @@ export const portfolioData = {
 };
 
 export const languages = [
-  { code: 'pt', name: 'Português', flag: '🇧🇷' },
-  { code: 'en', name: 'English', flag: '🇺🇸' },
-  { code: 'it', name: 'Italiano', flag: '🇮🇹' }
+  { 
+    code: 'pt', 
+    name: 'Português', 
+    flag: 'https://customer-assets.emergentagent.com/job_julio-devops/artifacts/l1e3z1a6_BR.png.png'
+  },
+  { 
+    code: 'en', 
+    name: 'English', 
+    flag: 'https://customer-assets.emergentagent.com/job_julio-devops/artifacts/vxsw8gw6_UK.png.png'
+  },
+  { 
+    code: 'it', 
+    name: 'Italiano', 
+    flag: 'https://customer-assets.emergentagent.com/job_julio-devops/artifacts/vmp2x5lt_IT.png.png'
+  }
 ];
