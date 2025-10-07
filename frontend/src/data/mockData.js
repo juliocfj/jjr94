@@ -300,6 +300,18 @@ export const portfolioData = {
       skills: "Skills",
       contact: "Contact"
     },
+    ui: {
+      viewDetails: "View Details",
+      technologyDegree: "Technology Degree",
+      quickOverview: "Quick Overview",
+      letsWorkTogether: "Let's Work Together",
+      yearsExperience: "Years of Experience",
+      usersSupported: "Users Supported",
+      uptimeAchieved: "Uptime Achieved",
+      processImprovement: "Process Improvement",
+      current: "Current",
+      previous: "Previous"
+    },
     hero: {
       name: "Julio Cesar de Faria Junior",
       title: "IT Specialist",
