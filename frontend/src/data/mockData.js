@@ -761,18 +761,22 @@ export const portfolioData = {
         ]
       }
     ],
-    education: [
-      {
-        degree: "Laurea in Reti di Computer (Tecnologo)",
-        institution: "Universidade Anhembi Morumbi",
-        year: "2022"
-      },
-      {
-        degree: "Laurea in Analisi e Sviluppo dei Sistemi (Tecnologo)",
-        institution: "FATEC São José dos Campos",
-        year: "2020"
-      }
-    ],
+    education: {
+      title: "Formazione Accademica",
+      description: "Tecnologo in Reti di Computer e Tecnologo in Analisi e Sviluppo dei Sistemi",
+      degrees: [
+        {
+          degree: "Laurea in Reti di Computer (Tecnologo)",
+          institution: "Universidade Anhembi Morumbi",
+          year: "2022"
+        },
+        {
+          degree: "Laurea in Analisi e Sviluppo dei Sistemi (Tecnologo)",
+          institution: "FATEC São José dos Campos",
+          year: "2020"
+        }
+      ]
+    },
     certifications: {
       title: "Certifications",
       credlyTitle: "Credly Profile",
