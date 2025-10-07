@@ -191,18 +191,22 @@ export const portfolioData = {
         ]
       }
     ],
-    education: [
-      {
-        degree: "Tecnólogo em Redes de Computadores",
-        institution: "Universidade Anhembi Morumbi",
-        year: "2022"
-      },
-      {
-        degree: "Tecnólogo em Análise e Desenvolvimento de Sistemas",
-        institution: "FATEC São José dos Campos", 
-        year: "2020"
-      }
-    ],
+    education: {
+      title: "Formação Acadêmica",
+      description: "Tecnólogo em Redes de Computadores e Tecnólogo em Análise e Desenvolvimento de Sistemas",
+      degrees: [
+        {
+          degree: "Tecnólogo em Redes de Computadores",
+          institution: "Universidade Anhembi Morumbi",
+          year: "2022"
+        },
+        {
+          degree: "Tecnólogo em Análise e Desenvolvimento de Sistemas",
+          institution: "FATEC São José dos Campos", 
+          year: "2020"
+        }
+      ]
+    },
     certifications: [
       {
         name: "Microsoft Certified: Azure Fundamentals",
