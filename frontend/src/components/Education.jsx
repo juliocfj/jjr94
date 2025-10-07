@@ -95,10 +95,10 @@ const Education = ({ data }) => {
                 <div className="w-8 h-8 bg-cyan-600 rounded-full flex items-center justify-center">
                   <ExternalLink className="w-4 h-4 text-white" />
                 </div>
-                <h4 className="text-lg font-semibold text-slate-900">Credly Profile</h4>
+                <h4 className="text-lg font-semibold text-slate-900">{data.certifications.credlyTitle}</h4>
               </div>
               <p className="text-slate-600 mb-4">
-                View all verified certifications and digital badges on my Credly profile.
+                {data.certifications.credlyDescription}
               </p>
               <a 
                 href={`https://${data.contact.credly}`}
@@ -106,7 +106,7 @@ const Education = ({ data }) => {
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-cyan-700 font-medium hover:text-cyan-800 transition-colors duration-300"
               >
-                Visit Credly Profile
+                {data.certifications.credlyButton}
                 <ExternalLink className="w-4 h-4" />
               </a>
             </div>
