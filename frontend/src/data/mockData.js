@@ -239,11 +239,15 @@ export const portfolioData = {
       "Linguagens & Scripting": ["Python", "Bash", "PowerShell"],
       "Monitoramento": ["Zabbix", "Grafana", "Prometheus", "Datadog"]
     },
-    languages: [
-      { name: "Português", level: "Nativo" },
-      { name: "Inglês", level: "Avançado (B2/B2+)" },
-      { name: "Italiano", level: "Intermediário (B1)" }
-    ],
+    languages: {
+      title: "Idiomas", 
+      description: "Português (nativo), Inglês (avançado), Italiano (intermediário)",
+      list: [
+        { name: "Português", level: "Nativo" },
+        { name: "Inglês", level: "Avançado" },
+        { name: "Italiano", level: "Intermediário" }
+      ]
+    },
     contact: {
       title: "Entre em Contato",
       location: "📍 São José dos Campos, SP, Brasil",
