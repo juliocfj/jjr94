@@ -293,7 +293,9 @@ export const portfolioData = {
       title: "IT Specialist",
       subtitle: "7+ years of experience in technical support, automation, and infrastructure management",
       description: "I'm Julio Cesar de Faria Junior, an IT Specialist with 7+ years of experience in technical support, automation, and infrastructure management across cloud and on-premise environments. I work with Microsoft 365, Power Platform, Terraform, Kubernetes, and UniFi, always aiming for efficiency, security, and innovation.",
-      cta: "Get In Touch"
+      cta: "Get In Touch",
+      downloadCV: "Download CV",
+      timeZone: "Any Time Zone Available"
     },
     about: {
       title: "About Me",
