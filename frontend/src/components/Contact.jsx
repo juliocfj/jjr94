@@ -36,7 +36,7 @@ const Contact = ({ data }) => {
           </h2>
           <div className="w-24 h-1 bg-cyan-500 mx-auto mb-6"></div>
           <p className="text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed">
-            Ready to collaborate? Let's discuss how my technical expertise can help drive your organization's IT initiatives forward.
+            {data.contact.callToAction}
           </p>
         </div>
 
