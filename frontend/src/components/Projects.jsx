@@ -58,7 +58,7 @@ const ProjectCard = ({ project }) => {
                 size="sm" 
                 className="w-full group border-cyan-200 text-cyan-700 hover:bg-cyan-50 hover:border-cyan-300 transition-all duration-300"
               >
-                View Details
+                {data.ui.viewDetails}
                 <ExternalLink className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </Button>
             </DialogTrigger>
