@@ -127,7 +127,7 @@ const Contact = ({ data }) => {
             <Card className="bg-gradient-to-br from-cyan-500/10 to-blue-600/10 border-cyan-500/20 backdrop-blur-sm">
               <CardContent className="p-6">
                 <h3 className="text-2xl font-semibold text-white mb-6">
-                  Quick Overview
+                  {data.contact.overviewTitle}
                 </h3>
                 
                 <div className="grid grid-cols-2 gap-6">
