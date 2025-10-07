@@ -60,7 +60,7 @@ const Experience = ({ data }) => {
                       
                       <div className="space-y-3">
                         <h4 className="font-medium text-slate-900 text-sm uppercase tracking-wide">
-                          Key Responsibilities
+                          Principais Responsabilidades
                         </h4>
                         <ul className="space-y-2">
                           {job.responsibilities.map((responsibility, idx) => (
