@@ -274,10 +274,19 @@ export const portfolioData = {
         period: "Nov/2024 – Present",
         description: "UniFi network management and overall IT infrastructure",
         responsibilities: [
-          "UniFi network management and overall IT infrastructure",
-          "Process automation and technical documentation",
-          "Collaborative solutions in SharePoint Online",
-          "High availability and SLA compliance"
+          "Manage DevOps activities, including automation tools, deployments, and version control.",
+          "Validate recovery simulations, deployments, and other IT processes.",
+          "Optimize IT costs and generate reports on performance and expenses.",
+          "Oversee backup procedures, data recovery routines, and contingency plans.",
+          "Monitor and maintain server infrastructure, ensuring availability and performance.",
+          "Perform preventive maintenance and escalation processes in case of failures.",
+          "Generate periodic reports, including server performance, security access, and backup status.",
+          "Maintain an up-to-date inventory of IT assets, their lifecycle, and replacement plans.",
+          "Prepare and update IT documentation, including assets, vendors, and access policies.",
+          "Manage access control and password policies for critical systems and platforms.",
+          "Ensure compliance with SLA agreements and manage customer-specific deliveries.",
+          "Conduct handover meetings to review responsibilities, pending activities, and critical priorities.",
+          "Facilitate effective communication with clients and ensure continuity of support during transitions."
         ]
       },
       {
