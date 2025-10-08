@@ -263,7 +263,7 @@ export const portfolioData = {
         id: 9,
         title: "Projeto WAY - Sistema OpenRoad",
         subtitle: "Infraestrutura Multi-Cloud para Pedágios",
-        company: "Projeto WAY, 2023",
+        company: "Projeto WAY",
         description: "Provisionamento de ambientes multi-cloud para sistema OpenRoad, integração com equipamentos de rede locais e monitoramento automatizado para processamento de transações de pedágio.",
         technologies: ["Terraform Multi-Cloud", "AWS", "DigitalOcean", "Mikrotik", "Cisco", "Datacom", "Grafana", "Prometheus"],
         responsibilities: [
