@@ -120,7 +120,9 @@ export const portfolioData = {
         ]
       }
     ],
-    projects: [
+    projects: {
+      description: "Projetos reais demonstrando expertise técnica, resultados mensuráveis e soluções inovadoras em infraestrutura cloud, automação e domínios de segurança.",
+      list: [
       {
         id: 1,
         title: "SharePoint Marco Zero",
@@ -474,7 +476,9 @@ export const portfolioData = {
         ]
       }
     ],
-    projects: [
+    projects: {
+      description: "Projetos reais demonstrando expertise técnica, resultados mensuráveis e soluções inovadoras em infraestrutura cloud, automação e domínios de segurança.",
+      list: [
       {
         id: 1,
         title: "SharePoint Marco Zero",
@@ -860,7 +864,9 @@ export const portfolioData = {
 
       }
     ],
-    projects: [
+    projects: {
+      description: "Projetos reais demonstrando expertise técnica, resultados mensuráveis e soluções inovadoras em infraestrutura cloud, automação e domínios de segurança.",
+      list: [
       {
         id: 1,
         title: "SharePoint Marco Zero",
