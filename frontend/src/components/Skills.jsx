@@ -55,7 +55,7 @@ const Skills = ({ data }) => {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {Object.entries(data.skills).map(([category, skills], index) => {
+          {Object.entries(data.skills.categories || data.skills).map(([category, skills], index) => {
             const IconComponent = getSkillIcon(category);
             
             return (
