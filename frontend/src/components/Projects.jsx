@@ -137,7 +137,7 @@ const Projects = ({ data }) => {
           </h2>
           <div className="w-24 h-1 bg-cyan-500 mx-auto mb-6"></div>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
-            Projetos reais demonstrando expertise técnica, resultados mensuráveis e soluções inovadoras em infraestrutura cloud, automação e domínios de segurança.
+            {data.projects?.description || "Real-world projects showcasing technical expertise, measurable results, and innovative solutions across cloud infrastructure, automation, and security domains."}
           </p>
         </div>
 
