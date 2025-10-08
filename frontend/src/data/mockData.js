@@ -811,11 +811,11 @@ export const portfolioData = {
     },
     languages: {
       title: "Lingue",
-      description: "Portoghese (madrelingua), Inglese (avanzato), Italiano (intermedio)",
+      description: "Portoghese (madrelingua), Inglese (B2), Italiano (B1)",
       list: [
         { name: "Portoghese", level: "Madrelingua" },
-        { name: "Inglese", level: "Avanzato" },
-        { name: "Italiano", level: "Intermedio" }
+        { name: "Inglese", level: "B2" },
+        { name: "Italiano", level: "B1" }
       ]
     },
     contact: {
