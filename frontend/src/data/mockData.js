@@ -867,7 +867,7 @@ export const portfolioData = {
       }
     ],
     projects: {
-      description: "Projetos reais demonstrando expertise técnica, resultados mensuráveis e soluções inovadoras em infraestrutura cloud, automação e domínios de segurança.",
+      description: "Progetti reali che dimostrano competenza tecnica, risultati misurabili e soluzioni innovative nei domini di infrastruttura cloud, automazione e sicurezza.",
       list: [
       {
         id: 1,
