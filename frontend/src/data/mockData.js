@@ -193,7 +193,7 @@ export const portfolioData = {
         id: 5,
         title: "Política de Acessos e VPN Segura",
         subtitle: "Automação de Segurança",
-        company: "MeedBr, 2024",
+        company: "MeedBr",
         description: "Automatização de criação e revogação de acessos VPN, com controle granular por usuário.",
         technologies: ["Ansible", "Fortinet", "Terraform", "Linux", "VPN IPSec"],
         responsibilities: [
@@ -553,7 +553,7 @@ export const portfolioData = {
         id: 5,
         title: "Access Policy & Secure VPN",
         subtitle: "Security Automation",
-        company: "MeedBr, 2024",
+        company: "MeedBr",
         description: "Automated provisioning and revocation of VPN access with granular user controls.",
         technologies: ["Ansible", "Fortinet", "Terraform", "Linux", "IPSec VPN"],
         responsibilities: [
@@ -945,7 +945,7 @@ export const portfolioData = {
         id: 5,
         title: "Politiche di Accesso e VPN Sicura",
         subtitle: "Automazione di Sicurezza",
-        company: "MeedBr, 2024",
+        company: "MeedBr",
         description: "Automazione della creazione e revoca degli accessi VPN, con controllo granulare per utente.",
         technologies: ["Ansible", "Fortinet", "Terraform", "Linux", "VPN IPSec"],
         responsibilities: [
