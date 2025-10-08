@@ -1144,16 +1144,16 @@ export const languages = [
   { 
     code: 'pt', 
     name: 'Português', 
-    flag: 'https://customer-assets.emergentagent.com/job_julio-devops/artifacts/l1e3z1a6_BR.png.png'
+    flag: 'https://customer-assets.emergentagent.com/job_julio-devops/artifacts/71ksln3b_PTBR.png'
   },
   { 
     code: 'en', 
     name: 'English', 
-    flag: 'https://customer-assets.emergentagent.com/job_julio-devops/artifacts/vxsw8gw6_UK.png.png'
+    flag: 'https://customer-assets.emergentagent.com/job_julio-devops/artifacts/1pgv22fs_EN.png'
   },
   { 
     code: 'it', 
     name: 'Italiano', 
-    flag: 'https://customer-assets.emergentagent.com/job_julio-devops/artifacts/vmp2x5lt_IT.png.png'
+    flag: 'https://customer-assets.emergentagent.com/job_julio-devops/artifacts/opmqw7pr_IT.png.png'
   }
 ];
