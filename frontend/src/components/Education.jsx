@@ -120,24 +120,41 @@ const Education = ({ data }) => {
           </h3>
           
           <div className="grid md:grid-cols-3 gap-6">
-            {data.languages.list.map((lang, index) => (
-              <div key={index} className="text-center group">
-                <div className="w-20 h-20 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
-                  <span className="text-2xl font-bold text-white">
-                    {lang.name.charAt(0).toUpperCase()}
-                  </span>
+            {data.languages.list.map((lang, index) => {
+              // Map language names to flag URLs
+              const getFlagUrl = (langName) => {
+                const normalizedName = langName.toLowerCase();
+                if (normalizedName.includes('português') || normalizedName.includes('portuguese') || normalizedName.includes('portoghese')) {
+                  return 'https://customer-assets.emergentagent.com/job_julio-devops/artifacts/71ksln3b_PTBR.png';
+                } else if (normalizedName.includes('inglês') || normalizedName.includes('english') || normalizedName.includes('inglese')) {
+                  return 'https://customer-assets.emergentagent.com/job_julio-devops/artifacts/1pgv22fs_EN.png';
+                } else if (normalizedName.includes('italiano') || normalizedName.includes('italian')) {
+                  return 'https://customer-assets.emergentagent.com/job_julio-devops/artifacts/opmqw7pr_IT.png.png';
+                }
+                return null;
+              };
+
+              return (
+                <div key={index} className="text-center group">
+                  <div className="w-20 h-20 bg-gradient-to-br from-slate-100 to-slate-200 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300 shadow-lg">
+                    <img 
+                      src={getFlagUrl(lang.name)}
+                      alt={`${lang.name} flag`}
+                      className="w-12 h-8 object-cover rounded"
+                    />
+                  </div>
+                  <h4 className="text-lg font-semibold text-slate-900 mb-2">
+                    {lang.name}
+                  </h4>
+                  <Badge 
+                    variant="secondary"
+                    className="bg-white text-slate-700 border border-slate-200"
+                  >
+                    {lang.level}
+                  </Badge>
                 </div>
-                <h4 className="text-lg font-semibold text-slate-900 mb-2">
-                  {lang.name}
-                </h4>
-                <Badge 
-                  variant="secondary"
-                  className="bg-white text-slate-700 border border-slate-200"
-                >
-                  {lang.level}
-                </Badge>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       </div>
