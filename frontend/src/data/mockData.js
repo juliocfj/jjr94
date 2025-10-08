@@ -161,7 +161,7 @@ export const portfolioData = {
         id: 3,
         title: "Automação de Provisionamento Cloud",
         subtitle: "Terraform + GCP",
-        company: "Quero Educação, 2022", 
+        company: "Quero Educação", 
         description: "Criação de templates de infraestrutura como código (IaC) para padronizar ambientes de teste e produção na Google Cloud Platform.",
         technologies: ["GCP", "Terraform", "Jenkins", "Docker", "GitLab"],
         responsibilities: [
@@ -521,7 +521,7 @@ export const portfolioData = {
         id: 3,
         title: "Cloud Provisioning Automation",
         subtitle: "Terraform + GCP",
-        company: "Quero Educação, 2022",
+        company: "Quero Educação",
         description: "Creation of Infrastructure as Code templates to standardize test and production environments on Google Cloud Platform.",
         technologies: ["GCP", "Terraform", "Jenkins", "Docker", "GitLab"],
         responsibilities: [
@@ -913,7 +913,7 @@ export const portfolioData = {
         id: 3,
         title: "Automazione del Provisioning Cloud",
         subtitle: "Terraform + GCP",
-        company: "Quero Educação, 2022",
+        company: "Quero Educação",
         description: "Creazione di modelli di Infrastructure as Code (IaC) per standardizzare ambienti di test e produzione su Google Cloud Platform.",
         technologies: ["GCP", "Terraform", "Jenkins", "Docker", "GitLab"],
         responsibilities: [
