@@ -127,7 +127,7 @@ export const portfolioData = {
         id: 1,
         title: "SharePoint Marco Zero",
         subtitle: "Estrutura Colaborativa Corporativa",
-        company: "CW Firpo, 2025",
+        company: "CW Firpo",
         description: "Reestruturação completa do ambiente SharePoint Online para centralizar documentos e fluxos internos da empresa.",
         technologies: ["SharePoint Online", "Power Automate", "Microsoft 365", "Excel", "Power BI"],
         responsibilities: [
@@ -487,7 +487,7 @@ export const portfolioData = {
         id: 1,
         title: "SharePoint Marco Zero",
         subtitle: "Corporate Collaborative Structure",
-        company: "CW Firpo, 2025",
+        company: "CW Firpo",
         description: "Complete rebuild of the SharePoint Online environment to centralize company documents and internal workflows.",
         technologies: ["SharePoint Online", "Power Automate", "Microsoft 365", "Excel", "Power BI"],
         responsibilities: [
@@ -879,7 +879,7 @@ export const portfolioData = {
         id: 1,
         title: "SharePoint Marco Zero",
         subtitle: "Struttura Collaborativa Aziendale",
-        company: "CW Firpo, 2025",
+        company: "CW Firpo",
         description: "Ristrutturazione completa dell'ambiente SharePoint Online per centralizzare documenti e flussi interni.",
         technologies: ["SharePoint Online", "Power Automate", "Microsoft 365", "Excel", "Power BI"],
         responsibilities: [
