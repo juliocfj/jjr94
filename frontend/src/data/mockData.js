@@ -939,6 +939,96 @@ export const portfolioData = {
           "Accesso remoto sicuro per team internazionali",
           "Zero incidenti critici durante il periodo operativo"
         ]
+      },
+      {
+        id: 6,
+        title: "Bilanciatore di Carico HTTP(S) Regionale",
+        subtitle: "Google Cloud Load Balancer",
+        company: "Progetto Enterprise",
+        description: "Creazione di un bilanciatore di carico interno regionale per distribuire il traffico tra istanze back-end in diverse zone, con controlli di integrità e failover automatici.",
+        technologies: ["Google Cloud Internal HTTP(S) Load Balancer", "Compute Engine", "VPC", "Health Checks", "Cloud Monitoring", "Terraform"],
+        responsibilities: [
+          "Configurazione del bilanciatore regionale interno con instradamento intelligente",
+          "Implementazione di controlli di integrità automatici e failover tra zone",
+          "Configurazione di VPC, subnet e regole firewall"
+        ],
+        results: [
+          "Alta disponibilità e failover automatico tra le zone",
+          "Traffico reindirizzato automaticamente dalle istanze non integre",
+          "Maggiore stabilità e riduzione della latenza per utenti interni"
+        ]
+      },
+      {
+        id: 7,
+        title: "Migrazione PostgreSQL verso Cloud",
+        subtitle: "Database Migration Service + pglogical",
+        company: "Progetto di Migrazione",
+        description: "Migrazione di database PostgreSQL on-premise verso Cloud SQL con tempo di inattività minimo e piena integrità dei dati.",
+        technologies: ["Cloud SQL PostgreSQL", "Database Migration Service", "pglogical", "IAM", "VPC Peering", "TLS/SSL"],
+        responsibilities: [
+          "Pianificazione ed esecuzione di migrazione con replica continua",
+          "Configurazione di script di validazione e playbook di rollback",
+          "Implementazione di connessioni sicure TLS/SSL tra ambienti"
+        ],
+        results: [
+          "Migrazione quasi senza downtime con cutover controllato",
+          "Backup automatici e punti di ripristino configurati",
+          "Riduzione del tempo di manutenzione e miglioramento degli obiettivi di recupero"
+        ]
+      },
+      {
+        id: 8,
+        title: "Distribuzione Scalabile su GKE",
+        subtitle: "Kubernetes con AutoScaling",
+        company: "Progetto Container",
+        description: "Distribuzione di applicazione su GKE con scalabilità automatica orizzontale e di cluster e aggiornamenti senza downtime.",
+        technologies: ["Google Kubernetes Engine", "Docker", "Horizontal Pod Autoscaler", "Cluster Autoscaler", "PodDisruptionBudget", "Jenkins"],
+        responsibilities: [
+          "Configurazione di policy di autoscaling orizzontale e di cluster",
+          "Implementazione di aggiornamenti rolling senza downtime",
+          "Configurazione di Pod Disruption Budget per stabilità"
+        ],
+        results: [
+          "Scalabilità affidabile durante i picchi di domanda",
+          "Aggiornamenti senza interruzioni con deployment rolling",
+          "Migliore esperienza utente in condizioni di carico elevato"
+        ]
+      },
+      {
+        id: 9,
+        title: "Progetto WAY - Sistema OpenRoad",
+        subtitle: "Infrastruttura Multi-Cloud per Pedaggi",
+        company: "Progetto WAY, 2023",
+        description: "Costruzione di infrastruttura multi-cloud per sistema OpenRoad, integrando automazione cloud con dispositivi di rete in loco.",
+        technologies: ["Terraform Multi-Cloud", "AWS", "DigitalOcean", "Mikrotik", "Cisco", "Datacom", "Grafana", "Prometheus"],
+        responsibilities: [
+          "Provisioning multi-cloud con Terraform (AWS + DigitalOcean)",
+          "Integrazione con router Mikrotik, Cisco e Datacom per edge networking",
+          "Implementazione di monitoraggio centralizzato con alert in tempo reale"
+        ],
+        results: [
+          "Distribuzione più rapida di nuovi punti di pedaggio",
+          "Infrastruttura resiliente e monitorata in tempo reale",
+          "Riduzione dei costi operativi attraverso automazione"
+        ]
+      },
+      {
+        id: 10,
+        title: "Base di Conoscenza e Automazione Supporto",
+        subtitle: "GLPI + Confluence + Scripts",
+        company: "Progetto Supporto",
+        description: "Creazione di base di conoscenza strutturata e automazione dei flussi di supporto per ridurre i tempi di risposta.",
+        technologies: ["Confluence", "GLPI", "Python Scripts", "REST APIs", "Ansible Playbooks"],
+        responsibilities: [
+          "Sviluppo di base di conoscenza strutturata in Confluence",
+          "Configurazione di GLPI per ITSM e gestione ticket",
+          "Creazione di script Python per automazione del supporto"
+        ],
+        results: [
+          "Riduzione del tempo medio di risposta di circa il 40%",
+          "Base di conoscenza centralizzata che migliora la coerenza",
+          "Miglioramento significativo della soddisfazione utenti interni"
+        ]
       }
     ],
     education: {
