@@ -554,6 +554,96 @@ export const portfolioData = {
           "Secure remote access for international teams",
           "Zero critical incidents during the operational period"
         ]
+      },
+      {
+        id: 6,
+        title: "Regional HTTP(S) Load Balancer",
+        subtitle: "Google Cloud Load Balancer",
+        company: "Enterprise Project",
+        description: "Build a regional internal HTTP(S) load balancer to distribute traffic across back-end instances in multiple zones, with automated health checks and failover.",
+        technologies: ["Google Cloud Internal HTTP(S) Load Balancer", "Compute Engine", "VPC", "Health Checks", "Cloud Monitoring", "Terraform"],
+        responsibilities: [
+          "Configure regional internal load balancer with intelligent traffic routing",
+          "Implement automated health checks and failover between zones",
+          "Set up VPC, subnets and firewall rules configuration"
+        ],
+        results: [
+          "Achieved high availability and automatic failover between zones",
+          "Traffic automatically redirected from unhealthy instances",
+          "Improved service stability and latency for internal users"
+        ]
+      },
+      {
+        id: 7,
+        title: "PostgreSQL Migration to Cloud",
+        subtitle: "Database Migration Service + pglogical",
+        company: "Migration Project",
+        description: "Migrate PostgreSQL databases from on-premises to Cloud SQL with minimal downtime and full data integrity.",
+        technologies: ["Cloud SQL PostgreSQL", "Database Migration Service", "pglogical", "IAM", "VPC Peering", "TLS/SSL"],
+        responsibilities: [
+          "Plan and execute migration with continuous replication",
+          "Configure migration validation scripts and rollback playbooks",
+          "Implement secure TLS/SSL connections between environments"
+        ],
+        results: [
+          "Near-zero downtime migration with controlled cutover",
+          "Automated backups and restore points configured",
+          "Reduced maintenance time and improved recovery objectives"
+        ]
+      },
+      {
+        id: 8,
+        title: "Scalable GKE Deployment",
+        subtitle: "Kubernetes with AutoScaling",
+        company: "Container Project",
+        description: "Deploy application on GKE with horizontal and cluster autoscaling and zero-downtime rolling updates.",
+        technologies: ["Google Kubernetes Engine", "Docker", "Horizontal Pod Autoscaler", "Cluster Autoscaler", "PodDisruptionBudget", "Jenkins"],
+        responsibilities: [
+          "Configure horizontal and cluster autoscaling policies",
+          "Implement zero-downtime rolling updates",
+          "Set up Pod Disruption Budget for stability"
+        ],
+        results: [
+          "Reliable autoscaling to handle demand peaks",
+          "Seamless zero-downtime updates with rolling deployment",
+          "Improved user experience during high-load periods"
+        ]
+      },
+      {
+        id: 9,
+        title: "Project WAY - OpenRoad System",
+        subtitle: "Multi-Cloud Infrastructure for Tolling",
+        company: "Project WAY, 2023",
+        description: "Build multi-cloud infrastructure for OpenRoad tolling system, integrating cloud automation with edge network devices.",
+        technologies: ["Terraform Multi-Cloud", "AWS", "DigitalOcean", "Mikrotik", "Cisco", "Datacom", "Grafana", "Prometheus"],
+        responsibilities: [
+          "Multi-cloud provisioning with Terraform (AWS + DigitalOcean)",
+          "Integration with Mikrotik, Cisco and Datacom routers for edge networking",
+          "Implementation of centralized monitoring with real-time alerts"
+        ],
+        results: [
+          "Faster rollout of new toll stations",
+          "Resilient and real-time monitored infrastructure",
+          "Reduced operational costs through automation"
+        ]
+      },
+      {
+        id: 10,
+        title: "Knowledge Base and Support Automation",
+        subtitle: "GLPI + Confluence + Scripts",
+        company: "Support Project",
+        description: "Build structured knowledge base and automate repetitive support workflows to reduce response times.",
+        technologies: ["Confluence", "GLPI", "Python Scripts", "REST APIs", "Ansible Playbooks"],
+        responsibilities: [
+          "Develop structured knowledge base in Confluence",
+          "Configure GLPI for ITSM and ticket management",
+          "Create Python scripts for support automation"
+        ],
+        results: [
+          "Reduced average response time by ~40%",
+          "Centralized knowledge base improved consistency",
+          "Improved internal user satisfaction significantly"
+        ]
       }
     ],
     education: {
