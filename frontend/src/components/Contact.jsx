@@ -132,7 +132,7 @@ const Contact = ({ data }) => {
                 
                 <div className="grid grid-cols-2 gap-6">
                   <div className="text-center">
-                    <div className="text-3xl font-bold text-cyan-400 mb-2">7+</div>
+                    <div className="text-3xl font-bold text-cyan-400 mb-2">+7</div>
                     <div className="text-slate-300 text-sm">Anos de Experiência</div>
                   </div>
                   <div className="text-center">
