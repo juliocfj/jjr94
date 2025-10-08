@@ -652,7 +652,8 @@ export const portfolioData = {
           "Improved internal user satisfaction significantly"
         ]
       }
-    ],
+    ]
+    },
     education: {
       title: "Academic Background",
       description: "Technologist in Computer Networks and Technologist in Systems Analysis and Development",
