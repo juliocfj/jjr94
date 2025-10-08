@@ -142,7 +142,7 @@ const Projects = ({ data }) => {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {data.projects.map((project) => (
+          {(data.projects.list || data.projects).map((project) => (
             <ProjectCard key={project.id} project={project} />
           ))}
         </div>
