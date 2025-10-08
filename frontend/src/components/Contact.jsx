@@ -173,7 +173,11 @@ const Contact = ({ data }) => {
                   <Button 
                     variant="outline" 
                     size="lg"
-                    className="w-full border-slate-600 text-slate-300 hover:bg-slate-700/50 hover:border-slate-500 transition-all duration-300"
+                    className="w-full border-cyan-400 bg-cyan-500/10 text-cyan-400 hover:bg-cyan-400 hover:text-slate-900 transition-all duration-300 shadow-lg shadow-cyan-400/25 hover:shadow-cyan-400/50 hover:shadow-xl animate-pulse"
+                    style={{
+                      textShadow: '0 0 10px rgba(34, 211, 238, 0.8)',
+                      boxShadow: '0 0 20px rgba(34, 211, 238, 0.3), 0 0 40px rgba(34, 211, 238, 0.1), inset 0 0 20px rgba(34, 211, 238, 0.1)'
+                    }}
                     onClick={handleLinkedInClick}
                   >
                     <Linkedin className="mr-2 w-5 h-5" />
