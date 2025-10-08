@@ -63,11 +63,7 @@ const Hero = ({ data, onContactClick }) => {
               variant="outline" 
               size="lg"
               onClick={handleDownloadCV}
-              className="border-cyan-400 bg-cyan-500/10 text-cyan-400 hover:bg-cyan-400 hover:text-slate-900 px-8 py-4 text-lg font-medium transition-all duration-300 shadow-lg shadow-cyan-400/25 hover:shadow-cyan-400/50 hover:shadow-xl animate-pulse"
-              style={{
-                textShadow: '0 0 10px rgba(34, 211, 238, 0.8)',
-                boxShadow: '0 0 20px rgba(34, 211, 238, 0.3), 0 0 40px rgba(34, 211, 238, 0.1), inset 0 0 20px rgba(34, 211, 238, 0.1)'
-              }}
+              className="border-slate-600 text-slate-300 hover:bg-slate-800 px-8 py-4 text-lg font-medium transition-all duration-300"
             >
               <Download className="mr-2 w-5 h-5" />
               Download CV
