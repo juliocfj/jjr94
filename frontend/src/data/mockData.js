@@ -253,11 +253,11 @@ export const portfolioData = {
     },
     languages: {
       title: "Idiomas", 
-      description: "Português (nativo), Inglês (avançado), Italiano (intermediário)",
+      description: "Português (nativo), Inglês (B2), Italiano (B1)",
       list: [
         { name: "Português", level: "Nativo" },
-        { name: "Inglês", level: "Avançado" },
-        { name: "Italiano", level: "Intermediário" }
+        { name: "Inglês", level: "B2" },
+        { name: "Italiano", level: "B1" }
       ]
     },
     contact: {
