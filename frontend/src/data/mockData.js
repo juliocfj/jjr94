@@ -338,7 +338,9 @@ export const portfolioData = {
       ]
     },
     skills: {
-      "Cloud & Infraestrutura": ["Azure", "GCP", "AWS", "UniFi"],
+      description: "Expertise técnica em plataformas cloud, ferramentas de automação e gerenciamento moderno de infraestrutura.",
+      categories: {
+        "Cloud & Infraestrutura": ["Azure", "GCP", "AWS", "UniFi"],
       "Automação & DevOps": ["Terraform", "Ansible", "Jenkins", "Docker"],
       "Segurança": ["Fortinet", "VPN", "IAM", "LGPD/GDPR"],
       "Power Platform & M365": ["Power Automate", "Power BI", "SharePoint", "Teams"],
