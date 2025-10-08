@@ -516,11 +516,11 @@ export const portfolioData = {
     },
     languages: {
       title: "Languages",
-      description: "Portuguese (native), English (advanced), Italian (intermediate)",
+      description: "Portuguese (native), English (B2), Italian (B1)",
       list: [
         { name: "Portuguese", level: "Native" },
-        { name: "English", level: "Advanced" },
-        { name: "Italian", level: "Intermediate" }
+        { name: "English", level: "B2" },
+        { name: "Italian", level: "B1" }
       ]
     },
     contact: {
