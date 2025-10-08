@@ -1094,7 +1094,7 @@ export const portfolioData = {
       categories: {
         "Cloud & Infrastruttura": ["Azure", "GCP", "AWS", "UniFi"],
       "Automazione & DevOps": ["Terraform", "Ansible", "Jenkins", "Docker"],
-      "Sicurezza": ["Fortinet", "VPN", "IAM", "GDPR/LGPD"],
+      "Sicurezza": ["Fortinet", "Sophos", "VPN", "IAM", "GDPR/LGPD"],
       "Power Platform & Microsoft 365": ["Power Automate", "Power BI", "SharePoint", "Teams"],
       "Linguaggi & Scripting": ["Python", "Bash", "PowerShell"],
         "Monitoraggio": ["Zabbix", "Grafana", "Prometheus", "Datadog"]
