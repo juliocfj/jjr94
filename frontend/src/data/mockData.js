@@ -1041,7 +1041,8 @@ export const portfolioData = {
           "Miglioramento significativo della soddisfazione utenti interni"
         ]
       }
-    ],
+    ]
+    },
     education: {
       title: "Formazione Accademica",
       description: "Tecnologo in Reti di Computer e Tecnologo in Analisi e Sviluppo dei Sistemi",
