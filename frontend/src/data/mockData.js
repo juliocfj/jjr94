@@ -1097,7 +1097,8 @@ export const portfolioData = {
       "Sicurezza": ["Fortinet", "VPN", "IAM", "GDPR/LGPD"],
       "Power Platform & Microsoft 365": ["Power Automate", "Power BI", "SharePoint", "Teams"],
       "Linguaggi & Scripting": ["Python", "Bash", "PowerShell"],
-      "Monitoraggio": ["Zabbix", "Grafana", "Prometheus", "Datadog"]
+        "Monitoraggio": ["Zabbix", "Grafana", "Prometheus", "Datadog"]
+      }
     },
     languages: {
       title: "Lingue",
